@@ -4,8 +4,8 @@
     --clr-dark: #554592;
     --clr-dark-offset: #724CF9;
     --clr-theme: #CA7DF9;
-    --font-title: "Sofia", 'Times New Roman', Times, serif;
-    --font-body: "Open Sans", sans-serif;
+    --font-title: 'Aboreto', cursive;
+    --font-body: 'Raleway', sans-serif;
     --basic-transition: all .25s ease-out;
 }
 
@@ -23,21 +23,23 @@ body {
 
     line-height: 1.3em;
     font-size: 125%;
-
+    /*
     display: grid;
     align-items: center;
     justify-items: center;
-
+    */
     font-family: var(--font-body);
 }
 
 .container {
     max-width: 90vw;
+    margin: 0 auto;
 }
 
 .title {
     text-align: center;
 
+    margin-top: 12vh;
     margin-bottom: 5rem;
     text-transform: capitalize;
 
@@ -50,7 +52,7 @@ body {
 .qa-container {
     width: 90vw;
     margin: 0 auto;
-    max-width: 1170px;
+    max-width: 996px;
 }
 
 article {
@@ -94,6 +96,10 @@ article {
     padding: 1rem 0rem;
 
     font-size: 1.75rem;
+}
+
+.question {
+    padding: 0 1rem;
 }
 
 ul {
